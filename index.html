@@ -1,53 +1,328 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- SEO Meta Tags -->
-    <title>Pratham Ghaywat | Full Stack Developer & Software Engineer</title>
-    <meta name="description" content="Experienced Full Stack Developer specializing in React, Node.js, and modern web technologies. View my portfolio, projects, and get in touch for collaboration." />
-    <meta name="keywords" content="Pratham Ghaywat, Full Stack Developer, React Developer, Node.js, JavaScript, TypeScript, Portfolio, Software Engineer" />
-    <meta name="author" content="Pratham Ghaywat" />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://prathamghaywat.github.io//" />
-    <meta property="og:title" content="Pratham Ghaywat | Full Stack Developer & Software Engineer" />
-    <meta property="og:description" content="Experienced Full Stack Developer specializing in React, Node.js, and modern web technologies. View my portfolio, projects, and get in touch for collaboration." />
-    <meta property="og:image" content="https://prathamghaywat.github.io//og-image.jpg" />
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://prathamghaywat.github.io//" />
-    <meta property="twitter:title" content="Pratham Ghaywat | Full Stack Developer & Software Engineer" />
-    <meta property="twitter:description" content="Experienced Full Stack Developer specializing in React, Node.js, and modern web technologies. View my portfolio, projects, and get in touch for collaboration." />
-    <meta property="twitter:image" content="https://prathamghaywat.github.io/og-image.jpg" />
-    
-    <!-- Additional SEO -->
-    <link rel="canonical" href="https://prathamghaywat.github.io/" />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#000000" />
-    
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Pratham Ghaywat",
-      "jobTitle": "Full Stack Developer",
-      "description": "Experienced Full Stack Developer specializing in React, Node.js, and modern web technologies",
-      "url": "https://prathamghaywat.github.io/",
-      "sameAs": [
-        "https://github.com/PrathamGhaywat",
-        "https://twitter.com/CoderHobby"
-      ]
-    }
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pratham Ghaywat · AI Specialist & Full‑Stack Developer</title>
+  <meta name="description" content="Portfolio of Pratham Ghaywat — student, AI specialist, and full‑stack developer. Projects in AI agents, web, Python, and embedded systems." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pratham Ghaywat · AI Specialist & Full‑Stack Developer" />
+  <meta property="og:description" content="Projects in AI agents, web, Python, and embedded systems." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://prathamghaywat.github.io" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Pratham Ghaywat · AI Specialist & Full‑Stack Developer" />
+  <meta name="twitter:description" content="Projects in AI agents, web, Python, and embedded systems." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%9A%80%3C/text%3E%3C/svg%3E" />
+  <script defer src="./assets/script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pratham Ghaywat",
+    "url": "https://prathamghaywat.github.io",
+    "email": "mailto:ghaywat.pratham@gmail.com",
+    "telephone": "+49 15510419377",
+    "jobTitle": "Student · AI Specialist & Full-Stack Developer",
+    "knowsAbout": [
+      "Artificial Intelligence", "Full-Stack Development", "Python", "Next.js",
+      "Appwrite", "Pytorch", "Streamlit", "Embedded Systems"
+    ],
+    "alumniOf": {"@type":"EducationalOrganization","name":"Ohm Gymnasium Erlangen"},
+    "sameAs": [
+      "https://github.com/PrathamGhaywat",
+      "https://prathamghaywat.github.io"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="logo">PG</span>
+        <span class="brand-text">Pratham Ghaywat</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button id="themeToggle" class="btn ghost" aria-label="Toggle theme">🌙</button>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="btn primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- Decorative background blobs -->
+    <div aria-hidden="true" class="bg-blob blob-1"></div>
+    <div aria-hidden="true" class="bg-blob blob-2"></div>
+
+    <!-- Hero -->
+    <section class="section hero" id="top">
+      <div class="container">
+        <div class="stack gap-lg">
+          <h1 class="title">Hi, I’m <span class="accent">Pratham</span> —
+            a student, AI specialist, and full‑stack developer.</h1>
+          <p class="lead">I build practical AI agents, modern web apps, and prototypes. 2 years of hands‑on coding with Python, Next.js, and Appwrite. I love clear communication, planning, and shipping real things.</p>
+          <div class="row gap-sm">
+            <a class="btn primary" href="#projects">View projects</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+          <ul class="hero-meta">
+            <li>📍 Germany</li>
+            <li>✉ <a href="mailto:ghaywat.pratham@gmail.com">ghaywat.pratham@gmail.com</a></li>
+            <li>☎ <a href="tel:+4915510419377">+49 155 104 19377</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech stack -->
+    <section class="section" id="tech">
+      <div class="container">
+        <h2 class="section-title">Tech stack</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <h3>Languages</h3>
+            <ul class="pill-list">
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>C++ (basic)</li>
+              <li>Go (basic)</li>
+              <li>Zig (basic)</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Frameworks & Tools</h3>
+            <ul class="pill-list">
+              <li>Next.js</li>
+              <li>React</li>
+              <li>Vite</li>
+              <li>Appwrite</li>
+              <li>Vercel</li>
+              <li>Git/GitHub</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>AI / ML</h3>
+            <ul class="pill-list">
+              <li>PyTorch</li>
+              <li>Hugging Face</li>
+              <li>Ollama</li>
+              <li>Streamlit</li>
+              <li>Embedded</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Environments & OS</h3>
+            <ul class="pill-list">
+              <li>VS Code</li>
+              <li>Zed</li>
+              <li>Windsurf</li>
+              <li>Windows</li>
+              <li>Ubuntu</li>
+              <li>Mint</li>
+              <li>Debian</li>
+              <li>Raspberry Pi OS</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Selected projects</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-head">
+              <h3>Sophos — AI research agent</h3>
+              <div class="tags"><span>Gemma</span><span>Streamlit</span><span>arXiv</span></div>
+            </div>
+            <p>Purpose‑built natural‑science research agent that reads arXiv papers to produce up‑to‑date, accurate answers to complex questions.</p>
+            <div class="card-actions">
+              <a class="btn sm" href="https://github.com/PrathamGhaywat/sophos" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-head">
+              <h3>Promptsmart — better prompts</h3>
+              <div class="tags"><span>Next.js</span><span>Appwrite</span><span>OpenRouter</span></div>
+            </div>
+            <p>A utility to refine and manage AI prompts. Built with Next.js and Appwrite Database, integrates with OpenRouter for model access.</p>
+            <div class="card-actions">
+              <a class="btn sm" href="https://github.com/PrathamGhaywat/promptsmart" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-head">
+              <h3>PyBrowse — Python web browser</h3>
+              <div class="tags"><span>Python</span><span>Qt6</span><span>Password Manager</span></div>
+            </div>
+            <p>A lightweight browser with multi‑search, saved history, and a smart password manager using the Qt framework.</p>
+            <div class="card-actions">
+              <a class="btn sm" href="https://github.com/PrathamGhaywat/PyBrowse-app" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-head">
+              <h3>AudioWiz — Python voice toolkit</h3>
+              <div class="tags"><span>Python</span><span>Library</span><span>PyPI</span></div>
+            </div>
+            <p>Published wrapper library to build speech and voice features quickly. Available on PyPI.</p>
+            <div class="card-actions">
+              <a class="btn sm" href="https://github.com/PrathamGhaywat/AudioWiz-v.1">Source</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-head">
+              <h3>Devspawn — project scaffolder</h3>
+              <div class="tags"><span>Node.js</span><span>CLI</span><span>NPM</span></div>
+            </div>
+            <p>Command‑line tool built with Commander and Chalk to spin up code setups fast. Published on npm.</p>
+            <div class="card-actions">
+              <a class="btn sm" href="https://github.com/PrathamGhaywat/Devspawn">Source</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Skills -->
+    <section class="section" id="skills">
+      <div class="container grid-2">
+        <div class="card reveal">
+          <h2 class="section-title">About</h2>
+          <p>I’m an engaged and motivated student specializing in AI applications, web technologies, and rapid prototyping. I’m actively looking for opportunities to apply my skills in real projects, collaborate in teams, and learn from experienced developers.</p>
+          <ul class="check-list">
+            <li>2 years of hands‑on coding</li>
+            <li>Strong in communication and planning</li>
+            <li>Builder mindset: iterate, test, ship</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills">
+            <div>
+              <h3>Programming</h3>
+              <p>Python, JavaScript, TypeScript, C++(basic), Go (basic), Zig (basic)</p>
+            </div>
+            <div>
+              <h3>Frameworks & Tools</h3>
+              <p>Next.js, React, Vite, Appwrite Database, Vercel, Git/GitHub, PyTorch, Hugging Face, Ollama, Streamlit, Embedded</p>
+            </div>
+            <div>
+              <h3>Environments</h3>
+              <p>VS Code, Zed, Windsurf, GitHub Copilot (Pro), Claude, ChatGPT, Prompt Engineering, Hardware Design</p>
+            </div>
+            <div>
+              <h3>Operating Systems</h3>
+              <p>Linux (Ubuntu, Mint, Debian, Raspberry Pi OS), Windows </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section class="section" id="education">
+      <div class="container grid-2">
+        <div class="card reveal">
+          <h2 class="section-title">Education</h2>
+          <ul class="timeline">
+            <li>
+              <div class="tl-point"></div>
+              <div>
+                <h3>Ohm Gymnasium Erlangen</h3>
+                <p>2021 – 2029 (expected)</p>
+                <p>Preferred subjects: Computer Science, Mathematics, Ethics</p>
+                <p>Activities: Jugend forscht (since 2024), Robotics (2023), School newspaper (2021)</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h2 class="section-title">Certificates & more</h2>
+          <ul class="check-list">
+            <li>Introduction to GenAI (Coursera): foundations and applications</li>
+            <li>Responsive Web Design (freeCodeCamp): HTML, CSS, JS</li>
+            <li>RoboCup Germany: line‑following robot (LEGO MINDSTORMS)</li>
+            <li>ESFZ summer camp participant</li>
+            <li>HackClub: Member and participant in Hackathons run by hackclub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Languages & Contact -->
+    <section class="section" id="contact">
+      <div class="container stack gap-lg">
+        <div class="card reveal">
+          <h2 class="section-title">Languages</h2>
+          <ul class="lang-list">
+            <li>
+              <span>German</span>
+              <span class="muted">Fluent</span>
+            </li>
+            <li>
+              <span>English</span>
+              <span class="muted">Fluent</span>
+            </li>
+            <li>
+              <span>Hindi</span>
+              <span class="muted">Conversational</span>
+            </li>
+            <li>
+              <span>French</span>
+              <span class="muted">Basic</span>
+            </li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h2 class="section-title">Contact</h2>
+          <p>Want to collaborate or learn more about my work? I’m happy to chat.</p>
+          <div class="contact-cards">
+            <a class="contact-card" href="mailto:ghaywat.pratham@gmail.com">
+              <span class="ico">✉</span>
+              <span>Email</span>
+              <span class="muted">ghaywat.pratham@gmail.com</span>
+            </a>
+            <a class="contact-card" href="tel:+4915510419377">
+              <span class="ico">☎</span>
+              <span>Phone</span>
+              <span class="muted">+49 155 104 19377</span>
+            </a>
+            <a class="contact-card" href="https://github.com/PrathamGhaywat" target="_blank" rel="noreferrer">
+              <span class="ico">🛠</span>
+              <span>GitHub</span>
+              <span class="muted">github.com/PrathamGhaywat</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Pratham Ghaywat • Built with care.</p>
+    </div>
+  </footer>
+</body>
 </html>
