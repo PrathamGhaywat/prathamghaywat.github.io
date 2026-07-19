@@ -1,6 +1,6 @@
 # prathamghaywat.github.io
 
-A single‑page portfolio for Pratham Ghaywat — student, AI specialist, and full‑stack developer.
+Single‑page portfolio for Pratham Ghaywat — student, AI specialist, and full‑stack developer.
 
 ## Preview locally
 
